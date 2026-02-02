@@ -17,7 +17,6 @@ It implements the **Kubernetes Reconciliation Loop** pattern to continuously mon
 *(The system detecting a failure and repairing it in <2 seconds)*
 
 ![Self Healing Demo](https://github.com/abrar-khan-alvi/k8s-db-sentinel/blob/main/Self%20healing.png)
-*> Note: Replace `./image_493bad.png` with the actual path to your screenshot in the repo!*
 
 ### How it Works (Logic Flow)
 This operator mimics the logic used by enterprise tools like **KubeDB**. It runs a control loop that constantly compares the *Desired State* (Pod exists) with the *Actual State*.
